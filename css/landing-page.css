@@ -1,0 +1,79 @@
+.intro-header {
+    display: table;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url(../img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.intro-header-inner {
+    vertical-align: middle;
+    display: table-cell;
+}
+.intro-header h1 {
+    color: white
+}
+
+.content-features {
+    padding: 70px 0px;
+    text-align: center;
+    background-color: #F7F8F9;
+}
+.content-features i {
+    font-size: 50px;
+    color: #4379FF;
+}
+.content-features p {
+    color: #C0C1C3;
+}
+.content-section-a p, .content-section-b p {
+    color: #C0C1C3;
+}
+
+.full-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px; /* Ajusta según sea necesario */
+}
+.bg-img-1 {
+    background-image: url('../img/bg-showcase-1.jpg');
+}
+.bg-img-2 {
+    background-image: url('../img/bg-showcase-2.jpg');
+}
+.bg-img-3 {
+    background-image: url('../img/bg-showcase-3.jpg');
+}
+
+
+.vertical-align {
+    display:table; 
+    min-height: 500px;
+    padding: 100px;
+}
+
+.vertical-align-content { 
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.content-clients {
+    padding: 70px 0px;
+    text-align: center;
+    background-color: #F7F8F9;
+}
+.content-clients .title {
+    padding-bottom: 30px;
+}
+
+.img-client {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.footer-social-media {
+    text-align: right;
+}
